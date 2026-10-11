@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vibheesh S M — Portfolio</title>
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Google Fonts: Playfair Display (formal serif) + Inter (professional sans-serif) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVIGATION BAR
+       Fixed top bar with name + section links
+  ============================================================ -->
+  <nav class="navbar">
+    <span class="nav-logo">Vibheesh</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="create.html" class="btn btn-primary btn-sm">Write Blog</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+       Full-screen intro with name, tagline, and CTA
+  ============================================================ -->
+  <section class="hero" id="home">
+
+    <!-- Decorative background grain overlay (handled in CSS) -->
+    <div class="hero-grain"></div>
+
+    <!-- Ambient background glow blobs -->
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+
+    <div class="hero-content">
+
+      <!-- Small label above the name -->
+      <p class="hero-label fade-in delay-1">Hello, I'm</p>
+
+      <!-- Main name with gradient -->
+      <h1 class="hero-name fade-in delay-2"><span class="name-accent">Vibheesh</span><br /><em></em></h1>
+
+      <!-- Tagline -->
+      <p class="hero-tagline fade-in delay-3">Code, creativity and continuous learning.</p>
+
+      <!-- Strong introductory sentence -->
+      <p class="hero-intro fade-in delay-4">
+        Every project I build is a step towards mastering tech.
+      </p>
+
+      <!-- Call-to-action buttons -->
+      <div class="hero-cta fade-in delay-5">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+
+    </div>
+
+    <!-- Scroll hint at bottom -->
+    <div class="scroll-hint fade-in delay-5">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+
+  </section>
+  <hr class="section-divider">
+
+  <!-- ============================================================
+       ABOUT SECTION
+       Personal description, goals, and learning journey
+  ============================================================ -->
+  <section class="about section" id="about">
+    <div class="container">
+
+      <!-- Section header -->
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+
+        <!-- Left: Main text blocks -->
+        <div class="about-text">
+
+          <p class="about-lead">
+            I'm an 11th-grade student with a strong interest in technology,
+            constantly exploring new ideas and building skills for the future.
+          </p>
+
+          <!-- Who am I -->
+          <div class="about-block">
+            <h3>What I'm Learning</h3>
+            <p>
+              I'm currently learning web development languages like HTML, CSS,
+              and JavaScript. Balancing academics and tech, I stay curious —
+              constantly digging into things I don't yet know.
+            </p>
+          </div>
+
+          <!-- What I build -->
+          <div class="about-block">
+            <h3>What I Build</h3>
+            <p>
+              I started out building random things that caught my interest. More
+              recently, when a friend came up with business ideas, I stepped up
+              to build websites and programs to bring those ideas to life.
+            </p>
+          </div>
+
+          <!-- Goals -->
+          <div class="about-block">
+            <h3>Goals</h3>
+            <p>
+              I want to become an expert in web application development —
+              solving complex problems and creating reliable software as I gain
+              real-world experience.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Right: Quick-fact sidebar cards -->
+        <div class="about-sidebar">
+
+          <div class="fact-card">
+            <span class="fact-icon"></span>
+            <div>
+              <h4>Currently</h4>
+              <p>11th Grade Student</p>
+            </div>
+          </div>
+
+          <div class="fact-card">
+            <span class="fact-icon"></span>
+            <div>
+              <h4>Focus</h4>
+              <p>Web Development</p>
+            </div>
+          </div>
+
+          <div class="fact-card">
+            <span class="fact-icon"></span>
+            <div>
+              <h4>Goal</h4>
+              <p>Full-Stack Developer</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <hr class="section-divider">
+
+  <!-- ============================================================
+       SKILLS SECTION
+       Skills organized into categories as cards
+  ============================================================ -->
+  <section class="skills section" id="skills">
+    <div class="container">
+
+      <!-- Section header -->
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+
+      <!-- Skills categories grid -->
+      <div class="skills-grid">
+
+        <!-- Category: Languages -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C++ (Basic)</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Category: Tools & Hardware -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Tools &amp; Hardware</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">ESP32 &amp; Board Management</span>
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Obsidian</span>
+          </div>
+        </div>
+
+        <!-- Category: Concepts -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Concepts</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Simulation Systems</span>
+            <span class="skill-tag">Web Development</span>
+            <span class="skill-tag">UI Design</span>
+          </div>
+        </div>
+
+        <!-- Category: Creative -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Creative</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Paintings</span>
+            <span class="skill-tag">Writing Books</span>
+            <span class="skill-tag">Video Editing</span>
+          </div>
+        </div>
+
+        <!-- Category: Fun Builds / Experiments -->
+        <div class="skill-category skill-category--wide">
+          <h3 class="skill-cat-title">Experiments & Fun Builds</h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--accent">Custom Python CLI Manager</span>
+            <span class="skill-tag skill-tag--accent">Automation Scripts</span>
+            <span class="skill-tag skill-tag--accent">Small-Scale AI Tools</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <hr class="section-divider">
+
+  <!-- ============================================================
+       PROJECTS SECTION
+       Each project shown as a card with title, description, tech
+  ============================================================ -->
+  <section class="projects section" id="projects">
+    <div class="container">
+
+      <!-- Section header -->
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+
+      <!-- Projects grid -->
+      <div class="projects-grid">
+
+        <!-- ---- Project 1: Custom Labs ---- -->
+        <article class="project-card">
+
+          <!-- Card top accent line (colored per project) -->
+          <div class="project-accent project-accent--1"></div>
+
+          <div class="project-body">
+
+            <div class="project-header">
+              <h3 class="project-title">Custom Labs</h3>
+              <span class="project-badge">E-Commerce</span>
+            </div>
+
+            <p class="project-description">
+              An e-commerce website built for a business founded by a friend.
+              Designed to let customers browse and purchase custom products
+              with a clean, user-focused shopping experience.
+            </p>
+
+            <!-- Technologies used -->
+            <div class="project-tech">
+              <span class="tech-tag">Google Antigravity</span>
+              <span class="tech-tag">Claude Code</span>
+              <span class="tech-tag">DeepSeek</span>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- ---- Project 2: Pulping Calculator ---- -->
+        <article class="project-card">
+
+          <!-- Card top accent line -->
+          <div class="project-accent project-accent--2"></div>
+
+          <div class="project-body">
+
+            <div class="project-header">
+              <h3 class="project-title">Pulping Calculator &amp; Simulator</h3>
+              <span class="project-badge">Simulation</span>
+            </div>
+
+            <p class="project-description">
+              A simulation app that models paper manufacturing production
+              parameters. Includes multiple industrial variables such as machine
+              speed and pulp consistency for realistic process modelling.
+            </p>
+
+            <!-- Technologies used -->
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Simulation</span>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- ---- Project 3: Advanced Web Scraper ---- -->
+        <article class="project-card">
+
+          <!-- Card top accent line -->
+          <div class="project-accent project-accent--3"></div>
+
+          <div class="project-body">
+
+            <div class="project-header">
+              <h3 class="project-title">Advanced Web Scraper</h3>
+              <span class="project-badge">Data Extraction</span>
+            </div>
+
+            <p class="project-description">
+              An advanced multi-platform web scraper and extractor engineered
+              for a political party. Built for high-throughput, automated data
+              gathering and structured extraction across multiple online platforms
+              and channels.
+            </p>
+
+            <!-- Technologies used -->
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Web Scraping</span>
+              <span class="tech-tag">Multi-Platform</span>
+              <span class="tech-tag">Data Extraction</span>
+            </div>
+
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+  <hr class="section-divider">
+
+  <!-- ============================================================
+       ACHIEVEMENTS / EXPERIENCE SECTION
+       Notable milestones and work
+  ============================================================ -->
+  <section class="achievements section" id="achievements">
+    <div class="container">
+
+      <!-- Section header -->
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <h2 class="section-title">Achievements</h2>
+      </div>
+
+      <!-- Achievements list as timeline cards -->
+      <div class="achievements-list">
+
+        <div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <div class="achievement-content">
+            <h3>Created Pulp Digestion Simulation Software</h3>
+            <p>
+              Developed a simulation tool for pulp digestion — a complex
+              industrial process — demonstrating the ability to apply
+              programming to real-world engineering scenarios.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <hr class="section-divider">
+
+  <!-- ============================================================
+       CONTACT SECTION
+       Email, social links, and a friendly CTA
+  ============================================================ -->
+  <section class="contact section" id="contact">
+    <div class="container">
+
+      <!-- Section header -->
+      <div class="section-header">
+        <span class="section-number">05</span>
+        <h2 class="section-title">Get in Touch</h2>
+      </div>
+
+      <div class="contact-wrapper">
+
+        <!-- Left: invitation text -->
+        <div class="contact-text">
+          <p class="contact-lead">
+            Whether you want to collaborate, have a project idea, or just want
+            to connect — feel free to reach out!
+          </p>
+          <p>
+            I'm always open to learning from interesting conversations and
+            working on exciting new challenges.
+          </p>
+        </div>
+
+        <!-- Right: social / contact links -->
+        <div class="contact-links">
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/vibheesh-sm-5235613b6/" class="contact-card" target="_blank"
+            rel="noopener noreferrer">
+            <!-- LinkedIn SVG icon -->
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M19 0H5C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8 19H5V8h3v11zM6.5 6.73C5.52 6.73 4.75 5.95 4.75 5s.77-1.73 1.75-1.73S8.25 4.05 8.25 5s-.77 1.73-1.75 1.73zM20 19h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97V19h-3V8h2.88v1.5h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.59V19z" />
+            </svg>
+            <div>
+              <h4>LinkedIn</h4>
+              <p>vibheesh-sm</p>
+            </div>
+            <span class="contact-arrow">→</span>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/vibheeshsm/" class="contact-card" target="_blank"
+            rel="noopener noreferrer">
+            <!-- Instagram SVG icon -->
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg>
+            <div>
+              <h4>Instagram</h4>
+              <p>@vibheeshsm</p>
+            </div>
+            <span class="contact-arrow">→</span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       Simple copyright and back-to-top link
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-name">Vibheesh S M</span>
+      <span class="footer-copy">© 2025 — Designed & Built by Vibheesh</span>
+      <a href="#home" class="footer-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="blog.js" defer></script>
+</body>
+
+</html>

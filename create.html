@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vibheesh S M — Write Your Blog</title>
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Google Fonts: Playfair Display + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="create-blog-page">
+
+  <!-- ============================================================
+       NAVIGATION BAR 
+  ============================================================ -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">Vibheesh</a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#achievements">Achievements</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="create.html" class="active">Write Blog</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============================================================
+       EDITOR SECTION
+  ============================================================ -->
+  <section class="editor-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">06</span>
+        <h2 class="section-title">New Blog Post</h2>
+      </div>
+
+      <form id="create-blog-form" class="editor-form">
+        <div class="form-group">
+          <label for="blog-title">Blog Title</label>
+          <input type="text" id="blog-title" name="title" placeholder="A catchy title for your post..." required />
+        </div>
+
+        <div class="form-row">
+          <div class="form-group half">
+            <label for="blog-author">Author</label>
+            <input type="text" id="blog-author" name="author" value="Vibheesh" placeholder="Your name" required />
+          </div>
+          <div class="form-group half">
+            <label for="blog-category">Category</label>
+            <input type="text" id="blog-category" name="category" placeholder="E.g. Web Dev, Tech, Thoughts" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="blog-banner">Banner Image URL</label>
+          <input type="url" id="blog-banner" name="banner" placeholder="Enter image link (e.g. Unsplash URL)" />
+        </div>
+
+        <div class="form-group">
+          <label for="blog-content">Post Content</label>
+          <textarea id="blog-content" name="content" rows="15" placeholder="Write your thoughts here... HTML allowed." required></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" id="preview-btn" class="btn btn-outline">Preview</button>
+          <button type="submit" id="publish-btn" class="btn btn-primary">Publish Post</button>
+        </div>
+      </form>
+
+      <!-- Preview Section -->
+      <div id="preview-container" class="preview-container hidden">
+        <h3>Live Preview</h3>
+        <div class="preview-card" id="preview-card">
+           <!-- Dynamic Preview -->
+        </div>
+        <button type="button" id="close-preview" class="btn btn-outline">Edit Post</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-name">Vibheesh S M</span>
+      <span class="footer-copy">© 2025 — Designed & Built by Vibheesh</span>
+      <a href="#home" class="footer-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="blog.js" defer></script>
+
+</body>
+
+</html>

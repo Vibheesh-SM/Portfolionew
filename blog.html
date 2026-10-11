@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vibheesh S M — Blog</title>
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Google Fonts: Playfair Display + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="blog-page">
+
+  <!-- ============================================================
+       NAVIGATION BAR 
+  ============================================================ -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">Vibheesh</a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#achievements">Achievements</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="create.html" class="btn btn-primary btn-sm">Write Blog</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============================================================
+       BLOG HERO SECTION
+  ============================================================ -->
+  <header class="blog-hero">
+    <div class="container hero-content">
+      <h1 class="hero-name fade-in"><span class="name-accent">Reflections</span><br /><em>&amp; Insights</em></h1>
+      <p class="hero-tagline fade-in delay-2">Sharing my journey through code and creativity.</p>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       BLOG POSTS LISTING
+  ============================================================ -->
+  <main class="blog-container container">
+    <div id="blog-posts-list" class="blog-posts-grid">
+      <!-- Blog posts will be dynamically loaded here -->
+      <div class="blog-placeholder">
+        <p>No blogs published yet. Be the first to start the conversation!</p>
+        <a href="create.html" class="btn btn-primary">Start Writing</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-name">Vibheesh S M</span>
+      <span class="footer-copy">© 2025 — Designed & Built by Vibheesh</span>
+      <a href="#home" class="footer-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Firebase Scripts (Placeholder for future connectivity) -->
+  <script src="blog.js" defer></script>
+
+</body>
+
+</html>
